@@ -27,7 +27,17 @@ target 'YOUR_TARGET_NAME' do
 end
 ```
 
+### Demo
+
+<p align="center">
+  <img width="24%" height="24%" src="https://github.com/bananaRanger/AYRotaryDial/blob/master/Resources/demo.gif?raw=true">
+</p>
+
 ## Usage
+
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/bananaRanger/AYRotaryDial/blob/master/Resources/expl.png?raw=true">
+</p>
 
 ```swift
 // 'rotaryDial' - object of 'AYRotaryDial' type.
