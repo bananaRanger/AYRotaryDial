@@ -35,10 +35,6 @@ end
 
 ## Usage
 
-<p align="center">
-  <img width="50%" height="50%" src="https://github.com/bananaRanger/AYRotaryDial/blob/master/Resources/expl.png?raw=true">
-</p>
-
 ```swift
 // 'rotaryDial' - object of 'AYRotaryDial' type.
 
@@ -47,6 +43,10 @@ rotaryDial.numberDidRotate = { [weak self] number in
   print(number)
 }
 ```
+
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/bananaRanger/AYRotaryDial/blob/master/Resources/expl.png?raw=true">
+</p>
 
 ## Author
 
