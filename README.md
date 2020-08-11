@@ -6,18 +6,12 @@
 [![Platform](https://img.shields.io/cocoapods/p/AYRotaryDial.svg?style=flat)](https://cocoapods.org/pods/AYRotaryDial)
 
 <p align="center">
-  <img width="64%" height="90%" src="https://github.com/bananaRanger/AYRotaryDial/blob/master/Resources/logo.png?raw=true">
+  <img width="72%" height="72%" src="https://github.com/bananaRanger/AYRotaryDial/blob/master/Resources/logo.png?raw=true">
 </p>
 
 ## About
 
-The UI control gives you the possibility for input phone number like by cool old rotary dial phone.
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+AYRotaryDial is the UI control that gives you the possibility for input phone number like by cool old rotary dial phone.
 
 ## Installation
 
@@ -25,13 +19,35 @@ AYRotaryDial is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AYRotaryDial'
+inhibit_all_warnings!
+
+target 'YOUR_TARGET_NAME' do
+  use_frameworks!
+	pod 'AYRotaryDial'
+end
+```
+
+## Usage
+
+```swift
+// 'rotaryDial' - object of 'AYRotaryDial' type.
+
+rotaryDial.uiDelegate = self
+rotaryDial.numberDidRotate = { [weak self] number in
+  print(number)
+}
 ```
 
 ## Author
 
-Anton Yereshchenko
+[📧](mailto:anton.yereshchenko@gmail.com?subject=[GitHub]%20Source%20AYPullBoard) Anton Yereshchenko
 
 ## License
 
 AYRotaryDial is available under the MIT license. See the LICENSE file for more info.
+
+## Used in project
+
+Icons & photos:
+
+Icons8 - https://icons8.com
