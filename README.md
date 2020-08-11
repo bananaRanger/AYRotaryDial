@@ -11,7 +11,7 @@
 
 ## About
 
-AYRotaryDial is the UI control that gives you the possibility for input phone number like by cool old rotary dial phone.
+AYRotaryDial is the UI control based on layers. This control gives you the possibility for an input phone number like by cool old rotary dial phone.
 
 ## Installation
 
