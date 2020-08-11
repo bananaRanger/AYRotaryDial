@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEFCF6E47553B9E13EACCCE176CCD6A /* Pods-AYRotaryDial_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE5A11D3D86B605D9C3F061CB83C133 /* Pods-AYRotaryDial_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		168B0B6EC13445C9DAD78DE022C9E750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3F32D4B184AE8B25037FFC220E0E18F1 /* Pods-AYRotaryDial_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A6A40FDD0500837C33D161050DB72E /* Pods-AYRotaryDial_Example-dummy.m */; };
+		4015EDEF24E1772E006B668A /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015EDE524E1772E006B668A /* CALayer.swift */; };
+		4015EDF024E1772E006B668A /* UIView+Rotatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015EDE624E1772E006B668A /* UIView+Rotatable.swift */; };
+		4015EDF124E1772E006B668A /* CATransform3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015EDE724E1772E006B668A /* CATransform3D.swift */; };
+		4015EDF224E1772E006B668A /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015EDE824E1772E006B668A /* CGFloat.swift */; };
+		4015EDF324E1772E006B668A /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015EDE924E1772E006B668A /* UIFont.swift */; };
+		4015EDF424E1772E006B668A /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015EDEA24E1772E006B668A /* CGRect.swift */; };
+		4015EDF524E1772E006B668A /* AYNumericLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015EDEC24E1772E006B668A /* AYNumericLayer.swift */; };
+		4015EDF624E1772E006B668A /* AYRotaryDialLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015EDED24E1772E006B668A /* AYRotaryDialLayer.swift */; };
+		4015EDF724E1772E006B668A /* AYRotaryDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015EDEE24E1772E006B668A /* AYRotaryDial.swift */; };
+		499E4E3C532C4B1E8DA7D91504221EEE /* Pods-AYRotaryDial_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA0E3853599882873FF0E5B05192F54 /* Pods-AYRotaryDial_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F3CD9BE598DA6FA7B2887DDF35A7B0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8BD120890A1A61A1D37AE9B9B6B40D6B /* Pods-AYRotaryDial_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7094CCFA8FB2DBE31463511C03FD3979 /* Pods-AYRotaryDial_Tests-dummy.m */; };
+		A6CC1AB62AB05B68B54653DC86B841B1 /* AYRotaryDial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BCFDE409D9F1C20AA50748654873BC /* AYRotaryDial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8AC4CA83A15B02C99F3753209C82F8F /* AYRotaryDial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E86C95ABC702C9D035183533D504D /* AYRotaryDial-dummy.m */; };
+		BB4C7C72A236959B110D03CAF87C00D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EF72DEBD0FDDBA8C3D23CE5CAC1A228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0836CF948372E21AFA70E0F91EDB53B;
+			remoteInfo = AYRotaryDial;
+		};
+		867A93A080427906FE217EE2B4067D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42579F416E3E1C302137558981D30B32;
+			remoteInfo = "Pods-AYRotaryDial_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0354670C589360B37309BAD83CBE91CE /* Pods-AYRotaryDial_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYRotaryDial_Tests.modulemap"; sourceTree = "<group>"; };
+		19BCFDE409D9F1C20AA50748654873BC /* AYRotaryDial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYRotaryDial-umbrella.h"; sourceTree = "<group>"; };
+		23A6A40FDD0500837C33D161050DB72E /* Pods-AYRotaryDial_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYRotaryDial_Example-dummy.m"; sourceTree = "<group>"; };
+		25ADFEC21F2E4334848139AC5CBBBA7F /* AYRotaryDial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYRotaryDial.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38D17B865EE5263CCB944C0890F0FBC7 /* AYRotaryDial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYRotaryDial.debug.xcconfig; sourceTree = "<group>"; };
+		3E4E86C95ABC702C9D035183533D504D /* AYRotaryDial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYRotaryDial-dummy.m"; sourceTree = "<group>"; };
+		3FE5A11D3D86B605D9C3F061CB83C133 /* Pods-AYRotaryDial_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYRotaryDial_Example-umbrella.h"; sourceTree = "<group>"; };
+		4015EDE524E1772E006B668A /* CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		4015EDE624E1772E006B668A /* UIView+Rotatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Rotatable.swift"; sourceTree = "<group>"; };
+		4015EDE724E1772E006B668A /* CATransform3D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATransform3D.swift; sourceTree = "<group>"; };
+		4015EDE824E1772E006B668A /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		4015EDE924E1772E006B668A /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		4015EDEA24E1772E006B668A /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		4015EDEC24E1772E006B668A /* AYNumericLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYNumericLayer.swift; sourceTree = "<group>"; };
+		4015EDED24E1772E006B668A /* AYRotaryDialLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYRotaryDialLayer.swift; sourceTree = "<group>"; };
+		4015EDEE24E1772E006B668A /* AYRotaryDial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AYRotaryDial.swift; path = AYRotaryDial/Classes/AYRotaryDial.swift; sourceTree = "<group>"; };
+		47F76595AB76E494BE80751D7C2AA7A3 /* AYRotaryDial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYRotaryDial.release.xcconfig; sourceTree = "<group>"; };
+		4B2700CEBCCE9A4CA4071300B7D9F2C8 /* Pods-AYRotaryDial_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYRotaryDial_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		53DC36784E0AD6158852249FD80104BA /* AYRotaryDial-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYRotaryDial-Info.plist"; sourceTree = "<group>"; };
+		5F9B9E2903EC1983F6E295B438AB483B /* Pods-AYRotaryDial_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYRotaryDial_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		637D763D907869F90873420811DEC574 /* Pods_AYRotaryDial_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYRotaryDial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		680ED500B1A368F1DF3B08B4736787ED /* Pods-AYRotaryDial_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYRotaryDial_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7094CCFA8FB2DBE31463511C03FD3979 /* Pods-AYRotaryDial_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYRotaryDial_Tests-dummy.m"; sourceTree = "<group>"; };
+		74958D61C3E246B44DB8444D56847757 /* AYRotaryDial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYRotaryDial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		765EF2D33C2702B72B084BAD9080E945 /* Pods-AYRotaryDial_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYRotaryDial_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8DEBC4C733011BC8662F45CFED79BC2D /* Pods_AYRotaryDial_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYRotaryDial_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		906FED412308AEBB52514B4DACBE8539 /* Pods-AYRotaryDial_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYRotaryDial_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		969BDA7EB7DA88C5307E774559917897 /* Pods-AYRotaryDial_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYRotaryDial_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABB5ECF96DD08888E2348FAA1D2C1EA7 /* Pods-AYRotaryDial_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYRotaryDial_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2193E36156BCD3ED73B6CEF50CFB05C /* AYRotaryDial.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AYRotaryDial.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBA0E3853599882873FF0E5B05192F54 /* Pods-AYRotaryDial_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYRotaryDial_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CE2E6036E9FF0EA992FCF8F059A754BB /* AYRotaryDial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYRotaryDial-prefix.pch"; sourceTree = "<group>"; };
+		CF82DA46447DF007ACADC86F4CCEF8E3 /* Pods-AYRotaryDial_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYRotaryDial_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0ED62A80B35C731EF07BE98C1FF31FF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D9BB983D7B90503A9DFDFBF37FB529CA /* Pods-AYRotaryDial_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYRotaryDial_Tests-Info.plist"; sourceTree = "<group>"; };
+		DE64B1CBC92D1E768ADE96650E877AAA /* Pods-AYRotaryDial_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYRotaryDial_Example-Info.plist"; sourceTree = "<group>"; };
+		E1B733DB6C508CD89D5C5C4C4C1D3449 /* Pods-AYRotaryDial_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYRotaryDial_Example.modulemap"; sourceTree = "<group>"; };
+		F3FB9CEC2ADE86185FE40E61D796A7AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA19709FDEF7BE5A30291047ECE4E6E0 /* Pods-AYRotaryDial_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYRotaryDial_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89EE255DBB5261BC0353E6B675C5F7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168B0B6EC13445C9DAD78DE022C9E750 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE68438BE21523AC94C183D35200E2A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4C7C72A236959B110D03CAF87C00D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2987787EEAE07AB2A17C86B4D4FE21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3CD9BE598DA6FA7B2887DDF35A7B0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C7C3FE050A25376488065C80AA9D173 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B2193E36156BCD3ED73B6CEF50CFB05C /* AYRotaryDial.podspec */,
+				D0ED62A80B35C731EF07BE98C1FF31FF /* LICENSE */,
+				F3FB9CEC2ADE86185FE40E61D796A7AF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0CF82227D441D71DAE030FEF795E1730 /* Pods-AYRotaryDial_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0354670C589360B37309BAD83CBE91CE /* Pods-AYRotaryDial_Tests.modulemap */,
+				CF82DA46447DF007ACADC86F4CCEF8E3 /* Pods-AYRotaryDial_Tests-acknowledgements.markdown */,
+				4B2700CEBCCE9A4CA4071300B7D9F2C8 /* Pods-AYRotaryDial_Tests-acknowledgements.plist */,
+				7094CCFA8FB2DBE31463511C03FD3979 /* Pods-AYRotaryDial_Tests-dummy.m */,
+				D9BB983D7B90503A9DFDFBF37FB529CA /* Pods-AYRotaryDial_Tests-Info.plist */,
+				BBA0E3853599882873FF0E5B05192F54 /* Pods-AYRotaryDial_Tests-umbrella.h */,
+				906FED412308AEBB52514B4DACBE8539 /* Pods-AYRotaryDial_Tests.debug.xcconfig */,
+				5F9B9E2903EC1983F6E295B438AB483B /* Pods-AYRotaryDial_Tests.release.xcconfig */,
+			);
+			name = "Pods-AYRotaryDial_Tests";
+			path = "Target Support Files/Pods-AYRotaryDial_Tests";
+			sourceTree = "<group>";
+		};
+		170CEABA6EF6185BBAB522EDBFF72A47 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC23230BE321B13F04E85F735C46B3C2 /* Pods-AYRotaryDial_Example */,
+				0CF82227D441D71DAE030FEF795E1730 /* Pods-AYRotaryDial_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3BB62F66D85BC7978081DF8A8C619848 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25ADFEC21F2E4334848139AC5CBBBA7F /* AYRotaryDial.modulemap */,
+				3E4E86C95ABC702C9D035183533D504D /* AYRotaryDial-dummy.m */,
+				53DC36784E0AD6158852249FD80104BA /* AYRotaryDial-Info.plist */,
+				CE2E6036E9FF0EA992FCF8F059A754BB /* AYRotaryDial-prefix.pch */,
+				19BCFDE409D9F1C20AA50748654873BC /* AYRotaryDial-umbrella.h */,
+				38D17B865EE5263CCB944C0890F0FBC7 /* AYRotaryDial.debug.xcconfig */,
+				47F76595AB76E494BE80751D7C2AA7A3 /* AYRotaryDial.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AYRotaryDial";
+			sourceTree = "<group>";
+		};
+		4015EDE424E1772E006B668A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4015EDE524E1772E006B668A /* CALayer.swift */,
+				4015EDE624E1772E006B668A /* UIView+Rotatable.swift */,
+				4015EDE724E1772E006B668A /* CATransform3D.swift */,
+				4015EDE824E1772E006B668A /* CGFloat.swift */,
+				4015EDE924E1772E006B668A /* UIFont.swift */,
+				4015EDEA24E1772E006B668A /* CGRect.swift */,
+			);
+			name = Extensions;
+			path = AYRotaryDial/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		4015EDEB24E1772E006B668A /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				4015EDEC24E1772E006B668A /* AYNumericLayer.swift */,
+				4015EDED24E1772E006B668A /* AYRotaryDialLayer.swift */,
+			);
+			name = Layers;
+			path = AYRotaryDial/Classes/Layers;
+			sourceTree = "<group>";
+		};
+		5872ABB4CA1A5879BB59D8B2324E8450 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E787AFEE779ADF412F7B2C2B9736450F /* AYRotaryDial */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AC23230BE321B13F04E85F735C46B3C2 /* Pods-AYRotaryDial_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E1B733DB6C508CD89D5C5C4C4C1D3449 /* Pods-AYRotaryDial_Example.modulemap */,
+				ABB5ECF96DD08888E2348FAA1D2C1EA7 /* Pods-AYRotaryDial_Example-acknowledgements.markdown */,
+				FA19709FDEF7BE5A30291047ECE4E6E0 /* Pods-AYRotaryDial_Example-acknowledgements.plist */,
+				23A6A40FDD0500837C33D161050DB72E /* Pods-AYRotaryDial_Example-dummy.m */,
+				680ED500B1A368F1DF3B08B4736787ED /* Pods-AYRotaryDial_Example-frameworks.sh */,
+				DE64B1CBC92D1E768ADE96650E877AAA /* Pods-AYRotaryDial_Example-Info.plist */,
+				3FE5A11D3D86B605D9C3F061CB83C133 /* Pods-AYRotaryDial_Example-umbrella.h */,
+				969BDA7EB7DA88C5307E774559917897 /* Pods-AYRotaryDial_Example.debug.xcconfig */,
+				765EF2D33C2702B72B084BAD9080E945 /* Pods-AYRotaryDial_Example.release.xcconfig */,
+			);
+			name = "Pods-AYRotaryDial_Example";
+			path = "Target Support Files/Pods-AYRotaryDial_Example";
+			sourceTree = "<group>";
+		};
+		B8CB3158F965ED1CD376F8DAAE4DDB0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74958D61C3E246B44DB8444D56847757 /* AYRotaryDial.framework */,
+				8DEBC4C733011BC8662F45CFED79BC2D /* Pods_AYRotaryDial_Example.framework */,
+				637D763D907869F90873420811DEC574 /* Pods_AYRotaryDial_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5872ABB4CA1A5879BB59D8B2324E8450 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B8CB3158F965ED1CD376F8DAAE4DDB0A /* Products */,
+				170CEABA6EF6185BBAB522EDBFF72A47 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E787AFEE779ADF412F7B2C2B9736450F /* AYRotaryDial */ = {
+			isa = PBXGroup;
+			children = (
+				4015EDE424E1772E006B668A /* Extensions */,
+				4015EDEB24E1772E006B668A /* Layers */,
+				4015EDEE24E1772E006B668A /* AYRotaryDial.swift */,
+				0C7C3FE050A25376488065C80AA9D173 /* Pod */,
+				3BB62F66D85BC7978081DF8A8C619848 /* Support Files */,
+			);
+			name = AYRotaryDial;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A35B2BE685FCCF573DE85811A047B20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CC1AB62AB05B68B54653DC86B841B1 /* AYRotaryDial-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F172A44535BE0C78A6EF92BC88C990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEFCF6E47553B9E13EACCCE176CCD6A /* Pods-AYRotaryDial_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4049B40976C5CA794212A447AB228D2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499E4E3C532C4B1E8DA7D91504221EEE /* Pods-AYRotaryDial_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42579F416E3E1C302137558981D30B32 /* Pods-AYRotaryDial_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51CA6898281D8BCAE0CFF3D015FF097D /* Build configuration list for PBXNativeTarget "Pods-AYRotaryDial_Example" */;
+			buildPhases = (
+				34F172A44535BE0C78A6EF92BC88C990 /* Headers */,
+				9396B7D8C93B947F3B1A429BE47956B4 /* Sources */,
+				BE68438BE21523AC94C183D35200E2A0 /* Frameworks */,
+				3108CF6856E9DC35A89134367D66027D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47E3B3FF1031C2F35230A4ECB61DABD /* PBXTargetDependency */,
+			);
+			name = "Pods-AYRotaryDial_Example";
+			productName = "Pods-AYRotaryDial_Example";
+			productReference = 8DEBC4C733011BC8662F45CFED79BC2D /* Pods_AYRotaryDial_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC4B5B5D95F7AA7F2865CD62265555E4 /* Pods-AYRotaryDial_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF428818166BBA487F049FE8D4488C82 /* Build configuration list for PBXNativeTarget "Pods-AYRotaryDial_Tests" */;
+			buildPhases = (
+				4049B40976C5CA794212A447AB228D2B /* Headers */,
+				7F6BBED162060CA1A0AF5FF226519879 /* Sources */,
+				89EE255DBB5261BC0353E6B675C5F7C2 /* Frameworks */,
+				08ADE0104548772BDE29F7E1A6A1B37A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9438B69270C9F4A70DC394ADE5F79B57 /* PBXTargetDependency */,
+			);
+			name = "Pods-AYRotaryDial_Tests";
+			productName = "Pods-AYRotaryDial_Tests";
+			productReference = 637D763D907869F90873420811DEC574 /* Pods_AYRotaryDial_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0836CF948372E21AFA70E0F91EDB53B /* AYRotaryDial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F8A5B1913CF8E16A4D8B02F04C90BF /* Build configuration list for PBXNativeTarget "AYRotaryDial" */;
+			buildPhases = (
+				1A35B2BE685FCCF573DE85811A047B20 /* Headers */,
+				5D01A18D16B814CE21DE900E631F1BC1 /* Sources */,
+				FA2987787EEAE07AB2A17C86B4D4FE21 /* Frameworks */,
+				E568244142B405B88FAF3FB523CF4C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYRotaryDial;
+			productName = AYRotaryDial;
+			productReference = 74958D61C3E246B44DB8444D56847757 /* AYRotaryDial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					B0836CF948372E21AFA70E0F91EDB53B = {
+						LastSwiftMigration = 1110;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B8CB3158F965ED1CD376F8DAAE4DDB0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0836CF948372E21AFA70E0F91EDB53B /* AYRotaryDial */,
+				42579F416E3E1C302137558981D30B32 /* Pods-AYRotaryDial_Example */,
+				AC4B5B5D95F7AA7F2865CD62265555E4 /* Pods-AYRotaryDial_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08ADE0104548772BDE29F7E1A6A1B37A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3108CF6856E9DC35A89134367D66027D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E568244142B405B88FAF3FB523CF4C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D01A18D16B814CE21DE900E631F1BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4015EDF724E1772E006B668A /* AYRotaryDial.swift in Sources */,
+				4015EDF624E1772E006B668A /* AYRotaryDialLayer.swift in Sources */,
+				4015EDF224E1772E006B668A /* CGFloat.swift in Sources */,
+				4015EDEF24E1772E006B668A /* CALayer.swift in Sources */,
+				A8AC4CA83A15B02C99F3753209C82F8F /* AYRotaryDial-dummy.m in Sources */,
+				4015EDF324E1772E006B668A /* UIFont.swift in Sources */,
+				4015EDF524E1772E006B668A /* AYNumericLayer.swift in Sources */,
+				4015EDF124E1772E006B668A /* CATransform3D.swift in Sources */,
+				4015EDF024E1772E006B668A /* UIView+Rotatable.swift in Sources */,
+				4015EDF424E1772E006B668A /* CGRect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6BBED162060CA1A0AF5FF226519879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD120890A1A61A1D37AE9B9B6B40D6B /* Pods-AYRotaryDial_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9396B7D8C93B947F3B1A429BE47956B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F32D4B184AE8B25037FFC220E0E18F1 /* Pods-AYRotaryDial_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9438B69270C9F4A70DC394ADE5F79B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AYRotaryDial_Example";
+			target = 42579F416E3E1C302137558981D30B32 /* Pods-AYRotaryDial_Example */;
+			targetProxy = 867A93A080427906FE217EE2B4067D04 /* PBXContainerItemProxy */;
+		};
+		C47E3B3FF1031C2F35230A4ECB61DABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AYRotaryDial;
+			target = B0836CF948372E21AFA70E0F91EDB53B /* AYRotaryDial */;
+			targetProxy = 5EF72DEBD0FDDBA8C3D23CE5CAC1A228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		027DC3C91B8E8E06EB9786A4C062E254 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906FED412308AEBB52514B4DACBE8539 /* Pods-AYRotaryDial_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYRotaryDial_Tests/Pods-AYRotaryDial_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYRotaryDial_Tests/Pods-AYRotaryDial_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		498083CE23AEB2EE1625F9673A9EE335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9B9E2903EC1983F6E295B438AB483B /* Pods-AYRotaryDial_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYRotaryDial_Tests/Pods-AYRotaryDial_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYRotaryDial_Tests/Pods-AYRotaryDial_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FC3EBEDACF609A6EDD32ECFDAA26851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765EF2D33C2702B72B084BAD9080E945 /* Pods-AYRotaryDial_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYRotaryDial_Example/Pods-AYRotaryDial_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYRotaryDial_Example/Pods-AYRotaryDial_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D7BD2FD71866713B9C0B23349C10B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F76595AB76E494BE80751D7C2AA7A3 /* AYRotaryDial.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYRotaryDial/AYRotaryDial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYRotaryDial/AYRotaryDial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYRotaryDial/AYRotaryDial.modulemap";
+				PRODUCT_MODULE_NAME = AYRotaryDial;
+				PRODUCT_NAME = AYRotaryDial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8599D8F6EBA4EDD00FC50F81C5BEAF2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38D17B865EE5263CCB944C0890F0FBC7 /* AYRotaryDial.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYRotaryDial/AYRotaryDial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYRotaryDial/AYRotaryDial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYRotaryDial/AYRotaryDial.modulemap";
+				PRODUCT_MODULE_NAME = AYRotaryDial;
+				PRODUCT_NAME = AYRotaryDial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEC7A285FA371E087DC805218F0F11A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 969BDA7EB7DA88C5307E774559917897 /* Pods-AYRotaryDial_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYRotaryDial_Example/Pods-AYRotaryDial_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYRotaryDial_Example/Pods-AYRotaryDial_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F8A5B1913CF8E16A4D8B02F04C90BF /* Build configuration list for PBXNativeTarget "AYRotaryDial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8599D8F6EBA4EDD00FC50F81C5BEAF2A /* Debug */,
+				7D7BD2FD71866713B9C0B23349C10B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51CA6898281D8BCAE0CFF3D015FF097D /* Build configuration list for PBXNativeTarget "Pods-AYRotaryDial_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC7A285FA371E087DC805218F0F11A5 /* Debug */,
+				6FC3EBEDACF609A6EDD32ECFDAA26851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF428818166BBA487F049FE8D4488C82 /* Build configuration list for PBXNativeTarget "Pods-AYRotaryDial_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				027DC3C91B8E8E06EB9786A4C062E254 /* Debug */,
+				498083CE23AEB2EE1625F9673A9EE335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

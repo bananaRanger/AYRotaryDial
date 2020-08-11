@@ -1,0 +1,16 @@
+PODS:
+  - AYRotaryDial (0.1.0)
+
+DEPENDENCIES:
+  - AYRotaryDial (from `../`)
+
+EXTERNAL SOURCES:
+  AYRotaryDial:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AYRotaryDial: 009173d3577c5d3f0ac15aa86242265d5a5d4d07
+
+PODFILE CHECKSUM: 9c0941a3b841dbfb984def48b2dcd9d2d352b5f3
+
+COCOAPODS: 1.9.3

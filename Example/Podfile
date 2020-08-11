@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AYRotaryDial_Example' do
+  pod 'AYRotaryDial', :path => '../'
+
+  target 'AYRotaryDial_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

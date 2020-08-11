@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AYRotaryDial_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdV-hc-Jrb">
+                                <rect key="frame" x="163.5" y="583" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="C41-Lj-au7"/>
+                                    <constraint firstAttribute="width" secondItem="cdV-hc-Jrb" secondAttribute="height" id="nrW-ao-Ipz"/>
+                                </constraints>
+                                <state key="normal" image="icon_phone_key"/>
+                                <connections>
+                                    <action selector="btnPhoneTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GYJ-gO-reb"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckn-MH-pSf" customClass="AYRotaryDial" customModule="AYRotaryDial">
+                                <rect key="frame" x="71.5" y="275" width="232" height="232"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="232" id="Dey-2d-Trt"/>
+                                    <constraint firstAttribute="width" secondItem="ckn-MH-pSf" secondAttribute="height" id="jwH-0Q-Bod"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="+380501234567" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n4z-oz-HqF">
+                                <rect key="frame" x="71.5" y="174" width="232" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the phone number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdP-m9-aPS">
+                                <rect key="frame" x="71.5" y="136.5" width="232" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="116" translatesAutoresizingMaskIntoConstraints="NO" id="Shy-q3-zKa">
+                                <rect key="frame" x="73.5" y="523" width="228" height="24"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LG7-WH-iRk">
+                                        <rect key="frame" x="0.0" y="0.0" width="88" height="24"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRL-a7-hIt">
+                                                <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="DRL-a7-hIt" secondAttribute="height" id="eqN-1i-xJJ"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="icon_asterisk_key"/>
+                                                <connections>
+                                                    <action selector="btnAsteriskTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9sf-gl-Ygo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Sc-wS-6Dk">
+                                                <rect key="frame" x="32" y="0.0" width="24" height="24"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="icon_plus_key"/>
+                                                <connections>
+                                                    <action selector="btnPlusTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9tZ-LJ-kTM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owB-Pp-fHb">
+                                                <rect key="frame" x="64" y="0.0" width="24" height="24"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="icon_hashtag_key"/>
+                                                <connections>
+                                                    <action selector="btnHashtagTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4kf-V7-eCM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZ5-us-k2J">
+                                        <rect key="frame" x="204" y="0.0" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="aZ5-us-k2J" secondAttribute="height" id="cjS-JH-YFU"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="icon_delete_key"/>
+                                        <connections>
+                                            <action selector="btnDeleteTouchUpInside:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4Nz-4h-V5P"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="esL-3w-4tw"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.11372549019607843" green="0.11372549019607843" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cdV-hc-Jrb" firstAttribute="centerX" secondItem="ckn-MH-pSf" secondAttribute="centerX" id="2FD-vY-VfM"/>
+                            <constraint firstItem="xdP-m9-aPS" firstAttribute="centerX" secondItem="n4z-oz-HqF" secondAttribute="centerX" id="5CW-Wd-HmZ"/>
+                            <constraint firstItem="cdV-hc-Jrb" firstAttribute="top" secondItem="Shy-q3-zKa" secondAttribute="bottom" constant="36" id="EKw-N1-Cgb"/>
+                            <constraint firstItem="Shy-q3-zKa" firstAttribute="top" secondItem="ckn-MH-pSf" secondAttribute="bottom" constant="16" id="FXi-n3-8VI"/>
+                            <constraint firstItem="xdP-m9-aPS" firstAttribute="width" secondItem="n4z-oz-HqF" secondAttribute="width" id="GOg-L7-DNa"/>
+                            <constraint firstItem="n4z-oz-HqF" firstAttribute="centerX" secondItem="ckn-MH-pSf" secondAttribute="centerX" id="P0b-hG-qum"/>
+                            <constraint firstItem="ckn-MH-pSf" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="a4j-6C-VyV"/>
+                            <constraint firstItem="n4z-oz-HqF" firstAttribute="top" secondItem="xdP-m9-aPS" secondAttribute="bottom" constant="16" id="ecY-10-uly"/>
+                            <constraint firstItem="ckn-MH-pSf" firstAttribute="top" secondItem="n4z-oz-HqF" secondAttribute="bottom" constant="74" id="ghQ-B4-hg6"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="cdV-hc-Jrb" secondAttribute="bottom" constant="36" id="kHC-1g-wa6"/>
+                            <constraint firstItem="Shy-q3-zKa" firstAttribute="centerX" secondItem="ckn-MH-pSf" secondAttribute="centerX" id="v8Y-uz-DJ2"/>
+                            <constraint firstItem="n4z-oz-HqF" firstAttribute="width" secondItem="ckn-MH-pSf" secondAttribute="width" id="xDM-b7-ly5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="rotaryDial" destination="ckn-MH-pSf" id="Kjz-d4-AEK"/>
+                        <outlet property="txtField" destination="n4z-oz-HqF" id="8Uf-SC-LH7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_asterisk_key" width="43.5" height="43.5"/>
+        <image name="icon_delete_key" width="51" height="51"/>
+        <image name="icon_hashtag_key" width="43.5" height="43.5"/>
+        <image name="icon_phone_key" width="75" height="75"/>
+        <image name="icon_plus_key" width="43.5" height="43.5"/>
+    </resources>
+</document>
