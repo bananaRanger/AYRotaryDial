@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AYRotaryDial'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'AYRotaryDial is the UI control gives you the possibility for input phone number like with cool old rotary dial phone.'
 
 # This description is used to generate tags and improve search results.
