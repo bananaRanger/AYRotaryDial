@@ -40,7 +40,7 @@ rotaryDial.numberDidRotate = { [weak self] number in
 
 ## Author
 
-[📧](mailto:anton.yereshchenko@gmail.com?subject=[GitHub]%20Source%20AYPullBoard) Anton Yereshchenko
+[📧](mailto:anton.yereshchenko@gmail.com?subject=[GitHub]%20Source%20AYRotaryDial) Anton Yereshchenko
 
 ## License
 
