@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AYRotaryDial'
-  s.version          = '1.0.2'
-  s.summary          = 'AYRotaryDial is the UI control gives you the possibility for input phone number like with cool old rotary dial phone.'
+  s.version          = '1.0.3'
+  s.summary          = 'AYRotaryDial is the UI control gives you the possibility to input phone numbers like by cool old rotary dial phone.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  Customizable control that gives the user the possibility for input phone number like with cool old rotary dial phone..
+  The customizable UI control based on layers. This control gives you the possibility to input phone numbers like by cool old rotary dial phone.
                        DESC
 
   s.homepage         = 'https://github.com/bananaRanger/AYRotaryDial'
